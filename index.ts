@@ -1,3 +1,4 @@
+import AWS from 'aws-sdk';
 export async function callElasticSearchLambda(endpoint, method, body?, contentType?){
     //const service = new MyService(client);
     //const elasticURIAddress = await service.papiClient.post("/addons/api/"+ client.AddonUUID + "/installation/getElasticURIAddress");
