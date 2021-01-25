@@ -16,5 +16,8 @@
   },
   "dependencies": {
     "aws-sdk": "^2.831.0"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
